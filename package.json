@@ -1,0 +1,33 @@
+{
+  "name": "guacchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "qrcode": "^1.3.3",
+    "web3": "^1.0.0-beta.46"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.3.0",
+    "solc": "^0.5.4",
+    "solidity": "0.0.1",
+    "truffle": "^5.0.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanielDan/GuacChain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PanielDan/GuacChain/issues"
+  },
+  "homepage": "https://github.com/PanielDan/GuacChain#readme"
+}
