@@ -14,6 +14,9 @@ async function getContractJSON(contractName) {
     });
 }
 
+/*
+    API sends back the contract ABI and address given the networkID
+*/
 app.get('/:networkID/:contract', async (req, res) => {
     let contract = req.params.contract;
     let networkID = req.params.networkID;

@@ -8,5 +8,13 @@ services:
       - "4000:3000"
     networks:
       - "devnet"
+  user:
+    build:
+      context: ./user
+      dockerfile: Dockerfile
+    ports: 
+      - "4001:3000"
+    networks:
+      - "devnet"
 networks:
   devnet:
