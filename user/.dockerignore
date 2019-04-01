@@ -1,0 +1,11 @@
+#Ignore node modules
+node_modules
+
+#blockchain folder ignores
+build
+contracts
+test
+
+#General files
+.DS_Store
+Dockerfile
