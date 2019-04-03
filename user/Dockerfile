@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM node:10
+FROM node:10-slim
 
 # Set the working directory to /app
 WORKDIR /app
@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in requirements.txt
-RUN npm install
+RUN npm install && npm run build
 
 # Run server.js when the container launches
-CMD ["npm", "start"]
+CMD ["node", "build/app.js"]
