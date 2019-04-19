@@ -11,4 +11,4 @@ COPY . /app
 RUN npm install
 
 # Run server.js when the container launches
-CMD ["node", "server.js"]
+CMD ["node", "app.js"]

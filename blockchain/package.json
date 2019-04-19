@@ -18,7 +18,8 @@
     "truffle": "^5.0.9"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
