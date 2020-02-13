@@ -1,6 +1,6 @@
 # GuacChain
 
-GuacChain is a blockchain proof of concept (PoC) created by West Monroe Partners. This application highlights blockchain's ability to show food provenance through tracking avocados from regional farmer aggregation to purchase at a supermarket or consumption at a restaurant.
+GuacChain is a blockchain proof of concept (PoC) created by Danny Pan. This application highlights blockchain's ability to show food provenance through tracking avocados from regional farmer aggregation to purchase at a supermarket or consumption at a restaurant.
 
 ## Directory Structure
 ___
